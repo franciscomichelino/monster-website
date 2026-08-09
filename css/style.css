@@ -390,7 +390,7 @@ nav a:hover{
 
 .trust{
     background:#ffffff;
-    padding:70px 0;
+    padding:130px 0;
 }
 
 .trust h2{
@@ -413,7 +413,7 @@ nav a:hover{
     font-size:28px;
     font-weight:400;
     line-height:1.4;
-    margin:0 0 50px;
+    margin:0 0 80px;
     color:#222;
 }
 
@@ -594,7 +594,7 @@ nav a:hover{
 =========================== */
 
 .process{
-    padding:30px 0;
+    padding:130px 0;
     background:#ffffff;
 }
 
@@ -855,7 +855,7 @@ nav a:hover{
 =========================== */
 
 .cta{
-padding:40px 0;
+padding:160px 0;
 background:#ffffff;
 }
 
@@ -867,13 +867,13 @@ padding:0 110px;
 }
 
 .cta-content h2{
-font-size:28px;
+font-size:36px;
 font-weight:600;
-margin:0 0 18px;
+margin:0 0 28px;
 }
 
 .cta-content p{
-font-size:20px;
+font-size:26px;
 font-weight:400;
 line-height:1.25;
 margin:0 0 18px 40px;
@@ -883,17 +883,18 @@ color:#222;
 .cta-actions{
 display:flex;
 flex-direction:column;
-gap:12px;
+gap:28px;
 }
 
 .cta-button{
-    width:185px;
-    min-width:185px;
-    max-width:185px;
-    flex-shrink:0;
+    width:250px;
+    min-width:250px;
+    max-width:250px;
+    height:58px;
+    min-height:58px;
     box-sizing:border-box;
 
-    padding:12px 16px;
+    padding:12px 28px;
 
     display:flex;
     align-items:center;
@@ -901,7 +902,7 @@ gap:12px;
 
     text-decoration:none;
 
-    font-size:14px;
+    font-size:16px;
     font-weight:600;
 
     color:#222;
@@ -933,7 +934,7 @@ transform:translateX(3px);
 =========================== */
 
 .footer{
-    padding:25px 0 15px;
+    padding:5px 0 0;
     background:#f4f4f4;
     border-top:1px solid #dddddd;
 }
@@ -993,7 +994,7 @@ LINKS
 
 .footer-links{
     width:28%;
-    padding:0 55px;
+    padding:25px 0;
 
     border-right:1px solid #dddddd;
 
@@ -1066,9 +1067,9 @@ RODAPÉ INFERIOR
     align-items:center;
     justify-content:flex-end;
 
-    gap:20px;
+    gap:0;
 
-    padding:12px 60px 0;
+    padding:8px 30px 0;
 
     box-sizing:border-box;
 }
