@@ -715,6 +715,10 @@ nav a:hover{
     transition:color 0.25s ease;
 }
 
+.process-step:nth-child(2) h3{
+    transform:translateX(-36px);
+}
+
 .process-step:hover h3{
     color:#22c55e;
 }
