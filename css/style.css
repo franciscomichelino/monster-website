@@ -552,7 +552,7 @@ HEADER - 720px
         flex:0 0 400px;
         max-width:400px;
         min-width:400px;
-        padding:22px 24px;
+        padding:22px 22px;
     }
 
     .hero h1{
@@ -565,7 +565,7 @@ HEADER - 720px
 
     .hero-description{
         font-size:17px;
-        margin-bottom:28px;
+        margin-bottom:22px;
     }
 
     .hero-button{
@@ -676,6 +676,59 @@ HEADER - 720px
 
 .trust-card:hover li{
     color:#22c55e;
+}
+
+/* ===========================
+TRUST - 900px
+=========================== */
+
+@media (max-width: 900px) {
+
+    .trust {
+        padding: 70px 24px;
+        text-align: center;
+    }
+
+    .trust h2 {
+        font-size: 34px;
+        line-height: 1.2;
+    }
+
+    .trust-subtitle {
+        font-size: 22px;
+        line-height: 1.3;
+        margin-bottom: 50px;
+    }
+
+    .trust-cards {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .trust-card {
+        width: 100%;
+        min-height: 0;
+        padding: 18px 20px;
+    }
+
+    .trust-card h3 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .trust-card li {
+        font-size: 17px;
+        line-height: 1.35;
+    }
+
+    .trust-card ul {
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: center;
+}
 }
 
 /* ===========================
@@ -953,6 +1006,156 @@ HEADER - 720px
 }
 
 /* ===========================
+PROCESSO - 900px
+=========================== */
+
+@media (max-width: 900px) {
+
+    .process {
+        padding: 70px 24px;
+    }
+
+    .process-header {
+        margin-bottom: 55px;
+    }
+
+    .process-header h2 {
+        font-size: 34px;
+        letter-spacing: 1.5px;
+        line-height: 1.2;
+    }
+
+    .process-header p {
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .process-steps {
+        position: relative;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 55px;
+
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .process-steps::before {
+        content: "";
+
+        position: absolute;
+
+        top: 13px;
+        bottom: 13px;
+        left: 50%;
+
+        width: 3px;
+        height: auto;
+
+        transform: translateX(-50%);
+
+        background: #2aa7df;
+
+        z-index: 0;
+    }
+
+    .process-step {
+        position: relative;
+
+        width: 100%;
+        max-width: 360px;
+
+        text-align: center;
+
+        z-index: 1;
+    }
+
+    /* ===========================
+       NÚMERO DENTRO DA BOLINHA
+       =========================== */
+
+    .process-number {
+        position: relative;
+
+        width: 26px;
+        height: 26px;
+
+        margin: 0 auto 32px;
+
+        border-radius: 50%;
+
+        background: #2aa7df;
+        color: #ffffff;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 14px;
+        font-weight: 600;
+
+        z-index: 2;
+    }
+
+    /* Remove a numeração antiga abaixo da bolinha */
+
+    .process-number::after {
+        display: none !important;
+        content: none !important;
+    }
+
+    /* ===========================
+       TÍTULOS
+       =========================== */
+
+    .process-step h3 {
+        position: relative;
+
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 1.5px;
+
+        margin: 0 0 12px;
+
+        background: #ffffff;
+
+        z-index: 2;
+
+        transition: color 0.25s ease;
+    }
+
+    .process-step:nth-child(2) h3 {
+        transform: none;
+    }
+
+    /* ===========================
+       DESCRIÇÕES
+       =========================== */
+
+    .process-step p {
+        position: relative;
+
+        font-size: 16px;
+        line-height: 1.3;
+        font-weight: 600;
+
+        max-width: 300px;
+
+        margin: 0 auto;
+
+        color: #111;
+
+        background: #ffffff;
+
+        z-index: 2;
+    }
+
+}
+
+/* ===========================
 06 MONSTER LAB
 =========================== */
 
@@ -1068,6 +1271,123 @@ HEADER - 720px
 .lab-validation span{
     display:block;
     font-size:13px;
+}
+
+/* ===========================
+MONSTER LAB - 900px
+=========================== */
+
+@media (max-width: 900px) {
+
+    .monster-lab {
+        padding: 60px 24px;
+    }
+
+    /* ===========================
+       CABEÇALHO
+       =========================== */
+
+    .lab-header {
+        margin-bottom: 25px;
+    }
+
+    .lab-header h2 {
+        font-size: 34px;
+        letter-spacing: 3px;
+        line-height: 1.2;
+    }
+
+    .lab-header p {
+        font-size: 21px;
+        line-height: 1.3;
+    }
+
+    /* ===========================
+       IMAGEM
+       =========================== */
+
+    .lab-image {
+        width: 100%;
+        margin: 0;
+    }
+
+    .lab-image-caption {
+        top: 8px;
+
+        font-size: 15px;
+        line-height: 1.25;
+
+        padding: 0 15px;
+    }
+
+/* ===========================
+MONSTER LAB - 900px
+CARDS CENTRALIZADOS
+=========================== */
+
+.lab-cards {
+    display: flex;
+    flex-direction: column;
+
+    width: 420px;
+    max-width: calc(100% - 20px);
+
+    margin: 0 auto !important;
+
+    gap: 24px;
+
+    align-items: center;
+}
+
+.lab-card {
+    width: 100%;
+    max-width: 420px;
+
+    margin: 0;
+
+    text-align: center;
+}
+
+.lab-card h3 {
+    margin: 0 0 5px;
+}
+
+.lab-card ul {
+    margin: 0;
+    padding-left: 0;
+
+    list-style-position: inside;
+
+    text-align: center;
+}
+
+    /* ===========================
+       RODAPÉ DA SEÇÃO
+       =========================== */
+
+    .lab-footer {
+        width: 100%;
+        margin: 30px 0 0;
+
+        font-size: 22px;
+        line-height: 1.3;
+    }
+
+    .lab-validation {
+        position: static;
+
+        margin-top: 12px;
+
+        text-align: center;
+
+        font-size: 17px;
+        line-height: 1.35;
+    }
+
+    .lab-validation span {
+        font-size: 13px;
+    }
+
 }
 
 /* ===========================
