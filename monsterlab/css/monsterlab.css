@@ -441,3 +441,77 @@ main {
 
     font-size:14px;
 }
+
+/*==================================================
+ * ARTIGOS
+ *==================================================*/
+
+.articles{
+    min-height:700px;
+    padding:80px 0;
+    box-sizing:border-box;
+}
+
+.articles .container{
+    text-align:center;
+}
+
+.articles h2{
+    margin:0 0 10px;
+
+    font-size:32px;
+    font-weight:600;
+    letter-spacing:3px;
+
+    color:#111;
+}
+
+.articles-subtitle{
+    margin:0 0 40px;
+
+    font-size:20px;
+    font-weight:500;
+
+    color:#222;
+}
+
+.articles-grid{
+    display:grid;
+
+    grid-template-columns:repeat(3, 1fr);
+
+    gap:40px;
+
+    align-items:start;
+}
+
+.article-card{
+    text-align:left;
+    cursor:pointer;
+
+    transition:
+        transform 0.2s ease,
+
+}
+
+.article-card:hover{
+    transform:scale(1.02);
+}
+
+.article-card img{
+    width:100%;
+    aspect-ratio:1 / 1;
+
+    object-fit:cover;
+    display:block;
+
+    margin:0 0 10px;
+}
+
+.article-card h3{
+    transition:color 0.2s ease;
+}
+
+.article-card:hover h3{
+    color:#00A8E8;
+}
