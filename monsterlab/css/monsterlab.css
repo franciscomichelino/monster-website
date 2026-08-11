@@ -44,8 +44,8 @@ main {
 }
 
 .lab {
-    min-height: 1200px;
-    padding: 80px 0;
+    min-height: 1000px;
+    padding: 20px 0;
 }
 
 .validation {
@@ -68,21 +68,98 @@ main {
     padding: 40px 0;
 }
 
+/* ===========================
+   HEADER
+   =========================== */
+
+nav a {
+    font-weight: 600;
+}
+
+/* ===========================
+   HEADER - 1200px
+   =========================== */
+
+@media (max-width: 1200px) {
+
+    header .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .logo img {
+        width: 58px;
+    }
+
+    .logo-title {
+        font-size: 26px;
+    }
+
+    .logo-subtitle {
+        font-size: 16px;
+    }
+
+    nav ul {
+        gap: 28px;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+}
+
+/* ===========================
+   HEADER - 1100px
+   =========================== */
+
+@media (max-width: 1100px) {
+
+    header .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .logo img {
+        width: 56px;
+    }
+
+    .logo-title {
+        font-size: 24px;
+    }
+
+    .logo-subtitle {
+        font-size: 15px;
+    }
+
+    nav ul {
+        gap: 22px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+}
+
 /*====================================*
 * HERO
 *====================================*/
 
 .hero {
     background: #D9D9D9;
+    min-height: 280px;
+    padding: 0;
+    margin-bottom: 10px;
 }
 
 .hero .container {
     position: relative;
 
-    min-height: 450px;
+    min-height: 360px;
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -92,44 +169,197 @@ main {
     top: 24px;
     left: 32px;
 
-    width: 100px;
+    width: 145px;
     height: auto;
 }
 
 .hero-content {
+    width: 100%;
     text-align: center;
+    margin-top: 24px;
+    
 }
 
 .hero h1 {
     margin: 0;
 
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 500;
     letter-spacing: 2px;
     line-height: 1.15;
 }
 
 .hero h2 {
-    margin: 6px 0 32px;
+    margin: 6px 0 30px;
 
-    font-size: 32px;
-    font-weight: 500;
-    letter-spacing: 4px;
+    font-size: 54px;
+    font-weight: 600;
+    letter-spacing: 5px;
     line-height: 1.15;
 }
 
 .hero-subtitle {
-    margin: 0 0 28px;
+    margin: 0 0 30px;
 
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
 }
 
 .hero-description {
+    position: relative;
+    left: 50%;
+    transform: translateX(-120%);
     margin: 0;
-
-    font-size: 18px;
+    font-size: 32px;
     font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+/* ===========================
+   HERO - 1200px
+   =========================== */
+
+@media (max-width: 1200px) {
+
+    .hero {
+        min-height: 240px;
+    }
+
+    .hero .container {
+        min-height: 260px;
+    }
+  
+    .hero-content {
+    position: relative;
+    top: -20px;
+}
+
+    .hero-logo {
+        width: 115px;
+    }
+
+    .hero h1 {
+        font-size: 44px;
+    }
+
+    .hero h2 {
+        font-size: 48px;
+    }
+
+    .hero-subtitle {
+        font-size: 28px;
+    }
+
+    .hero-description {
+        position: relative;
+        left: 58%;
+        transform: translateX(-120%);
+        margin: 0;
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+}
+
+/* ===========================
+   HERO - 1100px
+   =========================== */
+
+@media (max-width: 1100px) {
+
+    .hero {
+        min-height: 240px;
+    }
+
+    .hero .container {
+        min-height: 240px;
+    }
+
+    .hero-content {
+    position: relative;
+    top: -20px;
+}
+    
+    .hero-logo {
+        width: 95px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero h2 {
+        font-size: 44px;
+    }
+
+    .hero-subtitle {
+        font-size: 26px;
+    }
+
+    .hero-description {
+        position: relative;
+        left: 60%;
+        transform: translateX(-120%);
+        margin: 0;
+        font-size: 26px;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        text-align: center;
+        white-space: nowrap;
+    }
+
+}
+
+/* ===========================
+   HERO - 900px
+   =========================== */
+
+@media (max-width: 900px) {
+
+    .hero {
+        min-height: 200px;
+    }
+
+    .hero .container {
+        min-height: 200px;
+    }
+    .hero-logo {
+        width: 80px;
+        top: 20px;
+        left: 24px;
+    }
+
+    .hero-content {
+        top: -5px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero h2 {
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    .hero-subtitle {
+        font-size: 27px;
+        letter-spacing: 1.5px;
+    }
+
+    .hero-description {
+        left: 30%;
+        transform: translateX(-50%);
+        font-size: 24px;
+    }
+
 }
 
 /*====================================*
@@ -137,7 +367,7 @@ main {
 *====================================*/
 
 .lab {
-    background: #D9D9D9;
+    background: #FFFFFF;
 }
 
 .lab-header {
@@ -148,17 +378,17 @@ main {
 .lab-header h2 {
     margin: 0 0 8px;
 
-    font-size: 32px;
+    font-size: 50px;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .lab-header p {
     margin: 0;
 
-    font-size: 20px;
+    font-size: 38px;
     font-weight: 600;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 }
 
 
@@ -168,8 +398,8 @@ main {
 
 .lab-intro p {
     margin: 0;
-
-    font-size: 17px;
+    letter-spacing: 2px;
+    font-size: 30px;
     line-height: 1.4;
     font-weight: 500;
 }
@@ -185,17 +415,18 @@ main {
 
 
 .lab-text {
-    font-size: 16px;
-    line-height: 1.4;
+    font-size: 26px;
+    line-height: 1.2;
 }
 
 .lab-text p {
-    margin: 0 0 22px;
+    margin: 0 0 24px;
 }
 
 
 .lab-image {
     width: 100%;
+    transform: translateX(30px);
 }
 
 .lab-image img {
@@ -218,17 +449,18 @@ main {
 .lab-pillars h3 {
     margin: 0 0 5px;
 
-    font-size: 16px;
-    font-weight: 700;
-
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
     color: #149BD7;
 }
 
 .lab-pillars p {
     margin: 0;
-
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 24px;
     line-height: 1.3;
+    text-align: center;
 }
 
 /*====================================*
@@ -237,7 +469,7 @@ main {
 
 .validation{
     min-height:550px;
-    padding:70px 0;
+    padding:20px 0;
     box-sizing:border-box;
 }
 
@@ -248,9 +480,9 @@ main {
 .validation h2{
     margin:0 0 10px;
 
-    font-size:32px;
-    font-weight:600;
-    letter-spacing:3px;
+    font-size:50px;
+    font-weight:700;
+    letter-spacing:4px;
 
     color:#111;
 }
@@ -258,9 +490,9 @@ main {
 .validation-subtitle{
     margin:0 0 40px;
 
-    font-size:20px;
-    font-weight:500;
-
+    font-size:30px;
+    font-weight:600;
+    letter-spacing:2px;
     color:#222;
 }
 
@@ -269,9 +501,15 @@ main {
 
     grid-template-columns:repeat(3, 1fr);
 
-    gap:40px;
+    gap:10px;
 
     align-items:start;
+}
+
+.validation-grid img{
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .validation-card{
@@ -280,7 +518,7 @@ main {
 
 .validation-card img{
     width:100%;
-    max-width:360px;
+    max-width:420px;
 
     aspect-ratio:4 / 2.1;
 
@@ -294,7 +532,7 @@ main {
 .validation-card h3{
     margin:0 0 4px;
 
-    font-size:16px;
+    font-size:24px;
     font-weight:700;
 
     color:#159bd3;
@@ -303,9 +541,9 @@ main {
 .validation-card p{
     margin:0;
 
-    font-size:16px;
+    font-size:24px;
     line-height:1.3;
-
+    font-weight:700;
     color:#222;
 }
 
@@ -315,7 +553,7 @@ main {
 
 .platforms{
     min-height:700px;
-    padding:80px 0;
+    padding:30px 0;
 
     box-sizing:border-box;
 
@@ -329,7 +567,7 @@ main {
 .platforms h2{
     margin:0 0 10px;
 
-    font-size:32px;
+    font-size:50px;
     font-weight:600;
     letter-spacing:3px;
 
@@ -339,45 +577,42 @@ main {
 .platforms-subtitle{
     margin:0 0 40px;
 
-    font-size:20px;
-    font-weight:500;
-
+    font-size:36px;
+    font-weight:600;
+    letter-spacing:3px;
     color:#222;
 }
 
 .platforms-grid{
-    display:grid;
-
-    grid-template-columns:repeat(2, 1fr);
-
-    gap:70px;
-
-    max-width:1000px;
-
-    width:calc(100% - 100px);
-
-    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .platform-card{
+    width: 100%;
+    max-width: none;
     text-align:center;
 }
 
 .platform-card img{
     width:100%;
-    max-width:500px;
-    height: 300px;
+    max-width:none;
+    height: 320px;
 
     object-fit: contain;
 
     display:block;
-    margin:0 auto 10px;
+    margin:0 auto;
 }
 
 .platform-card h3{
     margin:0;
 
-    font-size:20px;
+    font-size:33px;
     font-weight:700;
     letter-spacing:1px;
 
@@ -387,8 +622,8 @@ main {
 .platform-card h4{
     margin:2px 0 16px;
 
-    font-size:16px;
-    font-weight:500;
+    font-size:22px;
+    font-weight:600;
 
     color:#222;
 }
@@ -396,7 +631,7 @@ main {
 .platform-status{
     margin:0 0 4px;
 
-    font-size:17px;
+    font-size:24px;
     font-weight:500;
 
     color:#67C23A;
@@ -405,7 +640,7 @@ main {
 .platform-tests{
     margin:0;
 
-    font-size:18px;
+    font-size:30px;
     font-weight:500;
 
     color:#111;
@@ -442,13 +677,48 @@ main {
     font-size:14px;
 }
 
+@media (max-width: 1200px) {
+
+    .lab-main {
+        grid-template-columns: 0.8fr 2fr;
+        gap: 35px;
+    }
+
+    .lab-text {
+        font-size: 22px;
+    }
+
+    .lab-text p {
+        margin: 0 10px 24px;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .lab-main {
+        grid-template-columns: 0.65fr 2fr;
+        gap: 30px;
+    }
+
+    .lab-text {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .lab-text p {
+        margin: 0 5px 24px;
+    }
+
+}
+
 /*==================================================
  * ARTIGOS
  *==================================================*/
 
 .articles{
     min-height:700px;
-    padding:80px 0;
+    padding:40px 0;
     box-sizing:border-box;
 }
 
@@ -459,17 +729,17 @@ main {
 .articles h2{
     margin:0 0 10px;
 
-    font-size:32px;
+    font-size:50px;
     font-weight:600;
-    letter-spacing:3px;
+    letter-spacing:6px;
 
     color:#111;
 }
 
 .articles-subtitle{
-    margin:0 0 40px;
+    margin:10px 0 80px;
 
-    font-size:20px;
+    font-size:36px;
     font-weight:500;
 
     color:#222;
@@ -486,7 +756,7 @@ main {
 }
 
 .article-card{
-    text-align:left;
+    text-align:center;
     cursor:pointer;
 
     transition:
@@ -509,12 +779,41 @@ main {
 }
 
 .article-card h3{
+    margin:0 0 4px;
+
+    font-size:26px;
+    font-weight:700;
+    line-height:1.1;
+    letter-spacing:0.5px;
+
     transition:color 0.2s ease;
+}
+
+.article-card h4{
+    margin:0 0 18px;
+
+    font-size:22px;
+    font-weight:600;
+    line-height:1.2;
+
+    color:#111;
+}
+
+.article-card p{
+    margin:0;
+
+    font-size:20px;
+    font-weight:400;
+    line-height:1.25;
+
+    color:#222;
 }
 
 .article-card:hover h3{
     color:#00A8E8;
 }
+
+
 
 /*====================================================*/
 /* ASSINATURA                                         */
@@ -587,10 +886,3 @@ main {
     transform: scale(1.08);
 }
 
-/* ===========================
-   HEADER
-   =========================== */
-
-nav a {
-    font-weight: 600;
-}
