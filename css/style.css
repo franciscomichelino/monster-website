@@ -851,12 +851,20 @@ TRUST - 900px
     line-height:1.15;
 
     color:#555;
+    transition: color 0.2s ease;
 }
 
 .platform-validation span{
     display:block;
     font-size:10px;
 }
+/* MONSTER LAB fica verde no hover do card */
+.platform-card:hover .platform-validation {
+    color: #00A651;
+    font-weight:600;
+
+}
+
 
 /* ===========================
 05 PROCESSO
@@ -976,20 +984,21 @@ TRUST - 900px
 
 .process-step h3{
     font-size:28px;
-    font-weight:400;
-    letter-spacing:2px;
+    font-weight:700;
+    letter-spacing:1px;
 
     margin:0 0 18px;
 
-    transition:color 0.25s ease;
+    color:#00A8E8;
 }
 
 .process-step:nth-child(2) h3{
     transform:translateX(-35px);
 }
 
-.process-step:hover h3{
-    color:#22c55e;
+.process-step:hover p{
+    color:#00A651;
+    font-weight:800;
 }
 
 .process-step p{
@@ -1003,6 +1012,7 @@ TRUST - 900px
     color:#111;
 
     font-weight:600;
+    transition:color 0.25s ease;
 }
 
 /* ===========================
@@ -1227,14 +1237,8 @@ PROCESSO - 900px
 .lab-card h3{
     font-size:20px;
     font-weight:600;
-
+    color:#00A8E8;
     margin:0 0 4px;
-
-    transition:color 0.25s ease;
-}
-
-.lab-card:hover h3{
-    color:#22c55e;
 }
 
 .lab-card ul{
@@ -1243,6 +1247,12 @@ PROCESSO - 900px
 
     font-size:16px;
     line-height:1.35;
+    transition:color 0.25s ease;
+}
+
+.lab-card:hover ul{
+    color:#22c55e;
+    font-weight:600;
 }
 
 .lab-footer{
@@ -1271,6 +1281,26 @@ PROCESSO - 900px
 .lab-validation span{
     display:block;
     font-size:13px;
+}
+.lab-validation a{
+    color:#555;
+    text-decoration:none;
+    font-weight:600;
+    display:inline-block;
+    transition:
+        color 0.25s ease,
+        transform 0.2s ease;
+}
+
+.lab-validation a:hover{
+    color:#00A651;
+    transform:scale(1.03);
+}
+
+.lab-validation a span{
+    display:block;
+    font-size:13px;
+    font-weight:400;
 }
 
 /* ===========================
