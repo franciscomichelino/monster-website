@@ -586,3 +586,11 @@ main {
 .footer-youtube a:hover {
     transform: scale(1.08);
 }
+
+/* ===========================
+   HEADER
+   =========================== */
+
+nav a {
+    font-weight: 600;
+}
