@@ -515,3 +515,74 @@ main {
 .article-card:hover h3{
     color:#00A8E8;
 }
+
+/*====================================================*/
+/* ASSINATURA                                         */
+/*====================================================*/
+
+.footer {
+    min-height: 150px;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.footer-brand strong {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-brand span {
+    font-size: 14px;
+}
+
+.footer-youtube img {
+    width: 72px;
+    height: auto;
+    display: block;
+}
+
+.footer-signature {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.footer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+
+    font-size: 11px;
+    text-align: right;
+}
+
+.footer-seal {
+    width: 60px;
+    height: auto;
+    display: block;
+}
+
+.footer-youtube a {
+    display: inline-block;
+    transition: transform 0.18s ease;
+}
+
+.footer-youtube a:hover {
+    transform: scale(1.08);
+}
