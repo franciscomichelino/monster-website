@@ -641,7 +641,7 @@ nav a {
 
 .validation{
     min-height:550px;
-    padding:20px 0;
+    padding:40px 0;
     box-sizing:border-box;
 }
 
@@ -650,7 +650,7 @@ nav a {
 }
 
 .validation h2{
-    margin:0 0 10px;
+    margin:0 0 20px;
 
     font-size:40px;
     font-weight:700;
@@ -738,7 +738,7 @@ nav a {
 
 .platforms{
     min-height:700px;
-    padding:20px 0;
+    padding:40px 0;
 
     box-sizing:border-box;
 
@@ -750,7 +750,7 @@ nav a {
 }
 
 .platforms h2{
-    margin:0 0 10px;
+    margin:0 0 20px;
 
     font-size:40px;
     font-weight:600;
