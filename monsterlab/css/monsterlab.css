@@ -970,19 +970,17 @@ nav a {
 }
 
 
-/*==================================================
-  CONTEÚDO
-==================================================*/
+/*==================================================*
+* ARTIGOS - CONTEÚDO
+*==================================================*/
 
-.article-card-content {
+.article-content {
     display: block;
-
     width: 100%;
-
     text-align: center;
 }
 
-.article-card-content h3 {
+.article-content h3 {
     margin: 0 0 4px;
 
     font-size: 26px;
@@ -990,10 +988,12 @@ nav a {
     line-height: 1.1;
     letter-spacing: 0.5px;
 
-    transition: color 0.2s ease;
+    color: #00A8E8;
+
+    transition: color 0.2s ease, font-weight 0.2s ease;
 }
 
-.article-card-content h4 {
+.article-content h4 {
     margin: 0 0 18px;
 
     font-size: 22px;
@@ -1001,9 +1001,11 @@ nav a {
     line-height: 1.2;
 
     color: #111;
+
+    transition: color 0.2s ease;
 }
 
-.article-card-content p {
+.article-content p {
     margin: 0;
 
     font-size: 20px;
@@ -1013,10 +1015,18 @@ nav a {
     color: #222;
 }
 
-.article-card:hover .article-card-content h3 {
+/*==================================================*
+* HOVER
+*==================================================*/
+
+.article-card:hover .article-content h3 {
     color: #00A8E8;
+    font-weight: 800;
 }
 
+.article-card:hover .article-content h4 {
+    color: #00A651 !important;
+}
 
 /*==================================================
   TABLET
