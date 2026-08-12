@@ -1,0 +1,70 @@
+Artigo 02
+
+27B em 16 GB de VRAM: quando a quantização muda o jogo
+
+E o artigo passa a ter duas camadas:
+
+1. A explicação
+
+O que são 27B
+Quantização Q4/Q5/Q6
+Tamanho dos pesos
+VRAM adicional
+Contexto
+Por que 16 GB pode ser suficiente em determinadas condições
+
+2. O experimento MONSTER LAB
+
+Monster 1.0
+Ryzen + MI50 16 GB
+RAM instalada
+modelo exato
+quantização exata
+backend
+contexto
+tokens/s
+VRAM utilizada
+RAM utilizada
+temperatura
+eventualmente consumo
+
+E aí temos uma vantagem editorial muito boa:
+
+Não queremos descobrir se a MI50 consegue "rodar" um 27B. Queremos descobrir como ela se comporta quando colocamos um modelo desse porte dentro de 16 GB de VRAM.
+
+Isso é muito mais MONSTER.
+
+E eu faria o teste em etapas
+
+Não precisamos começar com um modelo gigantesco e sair caçando 27B no escuro. 😄
+
+Podemos estabelecer uma pequena matriz:
+
+Teste	Quantização		Objetivo
+01	Q4			descobrir o ponto de entrada
+02	Q5			comparar qualidade × memória
+03	Q6			observar o custo adicional
+04	diferentes contextos	medir impacto na VRAM
+05	melhor configuração	benchmark final
+
+E cada resultado vira evidência para o artigo.
+
+Principalmente porque já temos aquela filosofia que você vem construindo para o MONSTER: não vender a ideia de que "GPU mais cara = máquina melhor", mas demonstrar que modelo + VRAM + RAM + software + configuração precisam conversar.
+
+E tem uma coisa que eu acho ainda mais interessante
+
+Se a MI50 16 GB conseguir executar um 27B quantizado com desempenho útil, isso pode render um artigo muito mais original do que:
+
+"RTX 4060 Ti roda 27B."
+
+Porque seria:
+
+"Até onde uma GPU de 16 GB consegue chegar com um modelo de 27B?"
+
+E a resposta será dada pelo nosso próprio laboratório.
+
+Aí sim podemos colocar screenshot real, tabela real e, no final:
+
+MONSTER LAB · TESTE REAL · VALIDADO
+
+🔥 Esse eu acho que vale a pena fazer.
