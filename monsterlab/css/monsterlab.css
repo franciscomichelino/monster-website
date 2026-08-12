@@ -1019,11 +1019,6 @@ nav a {
 * HOVER
 *==================================================*/
 
-.article-card:hover .article-content h3 {
-    color: #00A8E8;
-    font-weight: 800;
-}
-
 .article-card:hover .article-content h4 {
     color: #00A651 !important;
 }
