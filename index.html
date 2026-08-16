@@ -491,9 +491,18 @@ Sections
 
         <div class="lab-image">
 
-            <img
-                src="assets/monsterlab/monster-lab.jpg"
-                alt="Ambiente de testes do MONSTER LAB">
+            <picture>
+                <source
+                    media="(max-width: 600px)"
+                    srcset="assets/monsterlab/monster-lab-480.webp">
+
+                <source
+                    srcset="assets/monsterlab/monster-lab-800.webp">
+
+                <img
+                    src="assets/monsterlab/monster-lab.jpg"
+                    alt="Ambiente de testes do MONSTER LAB">
+            </picture>
 
             <div class="lab-image-caption">
                 Não só montamos computadores. Validamos plataformas de trabalho.
