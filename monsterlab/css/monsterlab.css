@@ -834,7 +834,7 @@ nav a {
 .platform-next{
     position:absolute;
 
-    right:20px;
+    right:5px;
     top:50%;
 
     transform:translateY(-50%);
@@ -852,14 +852,14 @@ nav a {
 }
 
 .platform-next span{
-    font-size:42px;
+    font-size:55px;
     line-height:1;
 }
 
 .platform-next small{
     margin-top:4px;
-
-    font-size:14px;
+    font-weight: 600;
+    font-size:16px;
 }
 
 /*==================================================
