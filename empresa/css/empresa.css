@@ -1,0 +1,715 @@
+/*====================================================*/
+/* MONSTER COMPUTER INC.                              */
+/* EMPRESA                                            */
+/*====================================================*/
+
+
+/*====================================================*/
+/* HERO                                               */
+/*====================================================*/
+
+.company-hero {
+
+    padding: 110px 20px 100px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #dddddd;
+}
+
+.company-hero-content {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+.company-eyebrow {
+
+    margin: 0 0 18px;
+
+    font-size: 18px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+
+    color: #149bd7;
+}
+
+.company-hero h1 {
+
+    margin: 0;
+
+    font-size: 42px;
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+    color: #111;
+}
+
+.company-hero-text {
+
+    margin: 20px 0 0;
+
+    font-size: 24px;
+
+    color: #555;
+}
+
+
+/*====================================================*/
+/* ESTRUTURA GERAL                                    */
+/*====================================================*/
+
+.company-section {
+
+    padding: 90px 20px;
+}
+
+.company-content {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+}
+
+.company-label {
+
+    margin: 0 0 14px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    color: #149bd7;
+}
+
+.company-section h2 {
+
+    margin: 0 0 30px;
+
+    font-size: 34px;
+    line-height: 1.25;
+
+    font-weight: 700;
+
+    color: #111;
+}
+
+.company-section p {
+
+    margin: 0 0 20px;
+
+    font-size: 18px;
+    line-height: 1.75;
+
+    color: #333;
+}
+
+.company-section strong {
+
+    font-weight: 700;
+
+    color: #111;
+}
+
+
+/*====================================================*/
+/* SEÇÃO ESCURA                                       */
+/*====================================================*/
+
+.company-section-dark {
+
+    background: #111;
+
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+.company-section-dark .company-label {
+
+    color: #149bd7;
+}
+
+.company-section-dark h2 {
+
+    color: #fff;
+}
+
+.company-section-dark p {
+
+    color: #d5d5d5;
+}
+
+.company-section-dark strong {
+
+    color: #fff;
+}
+
+
+/*====================================================*/
+/* BLOCKQUOTE                                         */
+/*====================================================*/
+
+.company-section blockquote {
+
+    margin: 40px 0;
+
+    padding: 5px 0 5px 25px;
+
+    border-left: 3px solid #149bd7;
+
+    font-size: 24px;
+    line-height: 1.5;
+
+    font-weight: 600;
+
+    color: #111;
+}
+
+.company-section-dark blockquote {
+
+    color: #fff;
+}
+
+
+/*====================================================*/
+/* PRINCÍPIOS                                         */
+/*====================================================*/
+
+.company-principles {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 45px 60px;
+
+    margin-top: 50px;
+}
+
+.company-principle {
+
+    padding-top: 20px;
+
+    border-top: 1px solid #dddddd;
+}
+
+.company-principle > span {
+
+    display: block;
+
+    margin-bottom: 15px;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+    color: #149bd7;
+}
+
+.company-principle h3 {
+
+    margin: 0 0 12px;
+
+    font-size: 20px;
+
+    color: #111;
+}
+
+.company-principle p {
+
+    margin: 0;
+
+    font-size: 15px;
+    line-height: 1.65;
+
+    color: #555;
+}
+
+
+/*====================================================*/
+/* ENGENHARIA                                         */
+/*====================================================*/
+
+.company-engineering {
+
+    background: #f7f7f7;
+
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.engineering-process {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(6, minmax(0, 1fr));
+
+    gap: 12px;
+
+    margin: 55px 0 50px;
+}
+
+.engineering-process > div {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    min-height: 110px;
+
+    padding: 15px 10px;
+
+    border: 1px solid #dddddd;
+
+    background: #fff;
+
+    text-align: center;
+}
+
+.engineering-process strong {
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    font-size: 16px;
+
+    color: #149bd7;
+}
+
+.engineering-process span {
+
+    font-size: 14px;
+    line-height: 1.35;
+
+    color: #333;
+}
+
+.engineering-statement {
+
+    font-size: 20px !important;
+
+    font-weight: 600;
+
+    color: #111 !important;
+}
+
+
+/*====================================================*/
+/* MONSTER LAB                                        */
+/*====================================================*/
+
+.lab-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 12px;
+
+    margin: 40px 0;
+}
+
+.lab-grid span {
+
+    display: block;
+
+    padding: 18px 15px;
+
+    border: 1px solid #dddddd;
+
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #333;
+}
+
+.company-link {
+
+    display: inline-block;
+
+    margin-top: 10px;
+
+    font-size: 22px;
+    font-weight: 600;
+
+    color: #149bd7;
+
+    text-decoration: none;
+}
+
+.company-link:hover {
+
+    text-decoration: underline;
+}
+
+
+/*====================================================*/
+/* FUNDADOR                                           */
+/*====================================================*/
+
+.company-founder {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.company-founder-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        minmax(280px, 380px)
+        minmax(0, 1fr);
+
+    gap: 70px;
+
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    align-items: center;
+}
+
+.company-founder-image img {
+
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 2px;
+}
+
+.company-founder-content h2 {
+
+    margin-bottom: 8px;
+}
+
+.company-founder-role {
+
+    margin-bottom: 30px !important;
+
+    color: #555 !important;
+}
+
+
+/*====================================================*/
+/* FECHAMENTO                                         */
+/*====================================================*/
+
+.company-closing {
+
+    padding: 110px 20px;
+
+    text-align: center;
+
+    background: #111;
+
+    border-top: 1px solid #222;
+}
+
+.company-closing p {
+
+    max-width: 700px;
+
+    margin: 0 auto 24px;
+
+    font-size: 20px;
+
+    color: #d5d5d5;
+}
+
+.company-closing h2 {
+
+    max-width: 850px;
+
+    margin: 0 auto 35px;
+
+    font-size: 38px;
+    line-height: 1.25;
+
+    color: #fff;
+}
+
+.company-closing strong {
+
+    display: block;
+
+    font-size: 26px;
+
+    letter-spacing: 2px;
+
+    color: #149bd7;
+}
+
+
+/*====================================================*/
+/* RESPONSIVIDADE                                     */
+/*====================================================*/
+
+@media (max-width: 900px) {
+
+    .company-hero h1 {
+        font-size: 36px;
+    }
+
+    .company-section h2 {
+        font-size: 30px;
+    }
+
+    .engineering-process {
+
+        grid-template-columns:
+            repeat(3, minmax(0, 1fr));
+    }
+
+    .company-founder-grid {
+
+        grid-template-columns:
+            280px
+            minmax(0, 1fr);
+
+        gap: 45px;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .company-hero {
+
+        padding: 80px 20px 70px;
+    }
+
+    .company-hero h1 {
+
+        font-size: 30px;
+    }
+
+    .company-hero-text {
+
+        font-size: 18px;
+    }
+
+    .company-section {
+
+        padding: 70px 20px;
+    }
+
+    .company-section h2 {
+
+        font-size: 27px;
+    }
+
+    .company-section p {
+
+        font-size: 16px;
+    }
+
+    .company-principles {
+
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .engineering-process {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+    }
+
+    .lab-grid {
+
+        grid-template-columns: 1fr;
+    }
+
+    .company-founder-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 40px;
+    }
+
+    .company-founder-image {
+
+        max-width: 380px;
+
+        margin: 0 auto;
+    }
+
+    .company-closing {
+
+        padding: 80px 20px;
+    }
+
+    .company-closing h2 {
+
+        font-size: 30px;
+    }
+
+}
+/*====================================================*/
+/* FOOTER - PADRÃO DAS PÁGINAS EDITORIAIS             */
+/*====================================================*/
+
+.footer {
+    width: 100%;
+
+    min-height: 88px;
+
+    padding: 8px 0;
+
+    background: #f4f4f4;
+
+    border-top: 1px solid #dddddd;
+
+    box-sizing: border-box;
+}
+
+.footer-content {
+    width: 100%;
+    min-height: 72px;
+
+    display: flex;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+
+/* MARCA */
+
+.footer-brand {
+    width: 40%;
+
+    padding: 8px 40px 8px 0;
+
+    border-right: 1px solid #dddddd;
+
+    box-sizing: border-box;
+
+    flex-shrink: 0;
+}
+
+.footer-brand strong {
+    display: block;
+
+    font-size: 18px;
+    font-weight: 700;
+
+    letter-spacing: 3px;
+
+    margin: 0 0 4px;
+}
+
+.footer-brand span {
+    display: block;
+
+    font-size: 15px;
+
+    line-height: 1.25;
+
+    color: #222;
+}
+
+.footer-brand span:last-child {
+    font-size: 14px;
+    font-weight: 500;
+
+    letter-spacing: 1px;
+}
+
+
+/* YOUTUBE */
+
+.footer-youtube {
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-youtube a {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-youtube img {
+    width: 72px;
+    height: 72px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* ASSINATURA */
+
+.footer-signature {
+    width: 32%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    gap: 10px;
+
+    padding: 0 20px 0 20px;
+
+    box-sizing: border-box;
+}
+
+.footer-text {
+    text-align: right;
+}
+
+.footer-text span {
+    display: block;
+
+    font-size: 11px;
+    line-height: 1.55;
+
+    color: #222;
+}
+
+.footer-text span:first-child {
+    font-weight: 500;
+}
+
+
+/* SELO */
+
+.footer-seal {
+    width: 60px;
+    height: 60px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+/*====================================================*/
+/* FOOTER - PADRÃO DAS PÁGINAS EDITORIAIS             */
+/* Override LOCAL da EMPRESA                          */
+/* Não alterar o style.css global                     */
+/*====================================================*/
