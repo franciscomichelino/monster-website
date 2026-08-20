@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
+<url>
     <loc>https://monstercomputer.com.br/</loc>
-  </url>
-  <url>
+</url>
+
+<url>
     <loc>https://monstercomputer.com.br/monsterlab/</loc>
-  </url>
-  <url>
+</url>
+
+<url>
     <loc>https://monstercomputer.com.br/monsterlab/01-ia-hardware/artigo-01</loc>
-  </url>
+</url>
+
 <url>
     <loc>https://monstercomputer.com.br/empresa/</loc>
+</url>
+
+<url>
+    <loc>https://monstercomputer.com.br/artigos/</loc>
+</url>
+
+<url>
+    <loc>https://monstercomputer.com.br/artigos/01-ia-hardware/</loc>
 </url>
 </urlset>
