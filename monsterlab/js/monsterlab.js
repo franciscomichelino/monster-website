@@ -1,12 +1,12 @@
 const platforms = [
     {
-        image: "assets/platforms/ryz1.jpg",
+        image: "assets/platforms/ryz1.png",
         name: "MONSTER 1.0",
         type: "AI Ready Workstation",
         tests: "Benchmark • Stress Test • IA"
     },
     {
-        image: "assets/platforms/wsb1.jpg",
+        image: "assets/platforms/wsb1.webp",
         name: "MONSTER 1.4",
         type: "Professional Workstation",
         tests: "Benchmark • Stress Test • IA"
@@ -18,7 +18,7 @@ const platforms = [
         tests: "Benchmark • Stress Test • IA"
     },
     {
-        image: "assets/platforms/srv1.png",
+        image: "assets/platforms/workstation-enterprise.png",
         name: "MONSTER 2.0",
         type: "PRO SERVER IA",
         tests: "Benchmark • Stress Test • IA"
