@@ -141,6 +141,25 @@
     color: #333333;
 }
 
+/* PLATAFORMA */
+
+.platform-category.ai-ready {
+    letter-spacing:3px;
+    color: #22c55e;
+    font-size: 26px;
+}
+
+.platform-category.professional {
+    letter-spacing:3px;
+    color: #008cff;
+    font-size: 26px;
+}
+
+.platform-category.enterprise {
+    letter-spacing:3px;
+    color: #6655ff;
+    font-size: 26px;
+}
 
 /* DESTAQUE MONSTER NO HOVER */
 
@@ -151,20 +170,7 @@
 }
 
 .platform-category {
-    font-weight: 700;
+    font-weight: 600;
 }
 
-.platform-category.ai-ready {
-    letter-spacing:3px;
-    color: #22c55e;
-}
 
-.platform-category.professional {
-    letter-spacing:3px;
-    color: #008cff;
-}
-
-.platform-category.enterprise {
-    letter-spacing:3px;
-    color: #6655ff;
-}
