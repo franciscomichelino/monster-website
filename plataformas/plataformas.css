@@ -96,7 +96,7 @@
 .platform-category {
     display: block;
 
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
 
     margin-bottom: 2px;
@@ -125,7 +125,7 @@
 .platform-card h3 {
     margin: 2px 0 6px;
 
-    font-size: 24px;
+    font-size: 26px;
 
     color: #111111;
 }
@@ -144,9 +144,27 @@
 
 /* DESTAQUE MONSTER NO HOVER */
 
-.platform-card:hover .platform-category,
+.platform-card:hover,
 .platform-card:hover p {
     font-weight: 700;
     color: #39b54a;
 }
 
+.platform-category {
+    font-weight: 700;
+}
+
+.platform-category.ai-ready {
+    letter-spacing:3px;
+    color: #22c55e;
+}
+
+.platform-category.professional {
+    letter-spacing:3px;
+    color: #008cff;
+}
+
+.platform-category.enterprise {
+    letter-spacing:3px;
+    color: #6655ff;
+}
