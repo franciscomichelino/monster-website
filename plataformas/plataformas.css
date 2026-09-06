@@ -9,6 +9,18 @@
     margin-bottom: 30px;
 }
 
+/* HEADER*/
+
+.platforms-header h1 {
+    font-size: 36px;    
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.platforms-header p {
+    margin-bottom: 20px;
+}
+
 
 /* CARD */
 
