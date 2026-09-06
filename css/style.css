@@ -817,14 +817,20 @@ TRUST - 900px
 
 .ai-ready{
     color:#22c55e;
+    text-align:center;
+    letter-spacing:3px;
 }
 
 .professional{
     color:#008cff;
+    text-align:center;
+    letter-spacing:3px;
 }
 
 .enterprise{
+    text-align:center;
     color:#6655ff;
+    letter-spacing:3px;
 }
 
 .platform-model{
@@ -865,6 +871,26 @@ TRUST - 900px
 
 }
 
+/* ===========================
+   MOBILE
+   PLATAFORMAS HERO
+=========================== */
+
+@media (max-width:800px){
+
+    .platform-cards{
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+    }
+
+    .platform-card{
+        width:100%;
+        max-width:310px;
+        box-sizing:border-box;
+    }
+
+}
 
 /* ===========================
 05 PROCESSO
